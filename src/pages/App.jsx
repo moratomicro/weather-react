@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
-import HelloWorld from './components/HelloWorld'
-import { api } from './services/api'
+import HelloWorld from '../components/HelloWorld'
+import { api } from '../services/api'
 import { FaTemperatureHigh, FaWind } from 'react-icons/fa'
+import UserSettings from '../pages/UserSettings'
 
 function App() {
   const [weather, setWeather] = useState(null)  
@@ -27,6 +28,7 @@ function App() {
     <div className="App">
       <h1><u>{"Previsão do Tempo".toUpperCase()}</u></h1>
       <HelloWorld></HelloWorld>
+      <button><UserSettings /></button>
 
       <h2>Insira uma Cidade</h2>
       <header>
