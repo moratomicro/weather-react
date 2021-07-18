@@ -25,9 +25,10 @@ function App() {
 
   return (
     <div className="App">
-      {/* <h1>{"hello world".toUpperCase()}</h1> */}
-      {/* <HelloWorld></HelloWorld> */}
+      <h1><u>{"Previsão do Tempo".toUpperCase()}</u></h1>
+      <HelloWorld></HelloWorld>
 
+      <h2>Insira uma Cidade</h2>
       <header>
         <form onSubmit={handleGetWeather}>
           <input 

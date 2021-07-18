@@ -2,6 +2,6 @@ import React from "react"
 
 export default function HelloWorld() {
     return(
-        <h1>Olá Mundo</h1>
+        <h1><u>Morato Micro - Time Control</u></h1>
     )    
 }
