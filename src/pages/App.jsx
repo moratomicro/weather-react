@@ -45,7 +45,7 @@ function App() {
         <main>
           {/* <p>{JSON.stringify(weather)}</p> */}
 
-          <h1>{city}</h1>
+          <h1>{city.toUpperCase()}</h1>
 
           <section className="current-weather">
             <h2>Current Weather - (Clima Atual)</h2>
