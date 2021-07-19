@@ -58,7 +58,7 @@ function App() {
           </section>
 
           <section className="forecast">
-            <h2>Forecast - Previsão)</h2>
+            <h2>Forecast - Previsão</h2>
 
             <ol>
               {
