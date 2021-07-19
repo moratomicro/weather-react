@@ -80,6 +80,12 @@ function App() {
           </section>
         </main> 
       }
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <h6>Developed by Reine Alexandre Morato - moratomicro@yahoo.com.br</h6>
     </div>
   )
