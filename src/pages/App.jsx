@@ -80,7 +80,7 @@ function App() {
           </section>
         </main> 
       }
-      <h6>Developed by Reine Alexandre Morato - moratomicro@yahoo.com.br</h6>
+      <h6>Developed by Reine Alexandre Morato - moratomicro@yahoo.com.br - Copyright© 2021</h6>
     </div>
   )
 }
